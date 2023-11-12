@@ -6,15 +6,15 @@ fn main() {
 }
 
 
-//生成 n 阶斐波那契数列。
-fn main() {
-    let n: i32 = 5;
-    println!("fib({}) = {}", n, fib(n));
-    let n: i32 = 6;
-    println!("fib({}) = {}", n, fib(n));
-    let n: i32 = 40;
-    println!("fib({}) = {}", n, fib(n));
-}
+// //生成 n 阶斐波那契数列。
+// fn main() {
+//     let n: i32 = 5;
+//     println!("fib({}) = {}", n, fib(n));
+//     let n: i32 = 6;
+//     println!("fib({}) = {}", n, fib(n));
+//     let n: i32 = 40;
+//     println!("fib({}) = {}", n, fib(n));
+// }
 
 fn fib(n: i32) -> i32 {
     if n < 2 {

@@ -1,4 +1,4 @@
-// use std::io;
+use std::io;
 
 // fn main() {
 //     println!("Guess the number!");
@@ -13,7 +13,6 @@
 //     println!("You guessed: {}", guess);
 // }
 
-use std::io;
 use rand::Rng;
 use std::cmp::Ordering;
 
